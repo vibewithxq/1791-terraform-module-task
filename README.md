@@ -1,6 +1,6 @@
 # Terraform AWS Infrastructure
 
-This repository contains a Terraform configuration to provision a robust and scalable infrastructure on AWS, including a Virtual Private Cloud (VPC), an Elastic Kubernetes Service (EKS) cluster, and an Amazon DocumentDB cluster.
+This repository contains a Terraform configuration to provision a robust and scalable infrastructure on AWS, including a Virtual Private Cloud (VPC), an Elastic Kubernetes Service (EKS) cluster, and an Amazon DocumentDB cluster. State Mangement can be handled locally or by an s3 backend with Native Locking
 
 ---
 
