@@ -96,12 +96,12 @@ Ensure the following tools are installed and configured:
 
 3. **Review the Plan**  
    ```bash
-   terraform plan
+   terraform plan --var-file=terraform.tfvars
    ```
 
 4. **Apply the Configuration**  
    ```bash
-   terraform apply
+   terraform apply --var-file=terraform.tfvars
    ```
 
 5. **Destroy Resources (Optional)**  
