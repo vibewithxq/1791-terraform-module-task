@@ -78,7 +78,7 @@ resource "aws_eks_node_group" "cluster_node_group" {
 }
 
 
-#This Creates the Node Group Roles
+#This Creates the Node Group Roles and Policy attachments
 resource "aws_iam_role" "node_group_role" {
   name = "eks-node-group-role"
 
